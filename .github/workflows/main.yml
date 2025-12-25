@@ -32,8 +32,8 @@ jobs:
 
           Restart-Service -Name TermService -Force
 
-      - name: Create RDP User with Secure Password
-
+      - name: 12345
+      
         run: |
 
           Add-Type -AssemblyName System.Security
